@@ -8,4 +8,30 @@
 // va applicato uno sconto del 20% per i minorenni
 // va applicato uno sconto del 40% per gli over 65.
 // L'output del prezzo finale va messo fuori in forma
-//  umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
+//  umana (con massimo due decimali, per indicare centesimi
+//  sul prezzo). Questo richiederà un minimo di ricerca.
+
+// chiedo numero km da percorrere
+// chiedo età passeggero
+// calcolo prezzo biglietto intero 
+    //  0.21 euro x km dati da utente 
+// se età > 65 sconto il prezzo intero del 40%
+    // se età < 18 sconto il prezzo intero del 20%
+
+// stampo messaggio finale con numeri in forma umana 
+
+// Scelta utente numero di km + conversione in numeri
+const travelKm =  parseInt( prompt('Inserisci numero di Km') );
+console.log(travelKm)
+
+// Richiesta età utente + conversione in numeri
+const passengerAge =  parseInt( prompt('Inserire età passeggero') );
+console.log(passengerAge)
+
+// Calcolo prezzo biglietto intero 
+const fullTicket = travelKm * 0.21 ;
+console.log(fullTicket)
+
+Se età utente > 64 allora il prezzo sarà l'intero con sconto del 40%
+
+
