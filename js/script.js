@@ -29,9 +29,8 @@ const passengerAge =  parseInt( prompt('Inserire età passeggero') );
 console.log(passengerAge)
 
 // Calcolo prezzo biglietto intero 
-const fullTicket = travelKm * 0.21 ;
+const fullTicket = ( (travelKm * 0.21) * 0.6);
 console.log(fullTicket)
 
-Se età utente > 64 allora il prezzo sarà l'intero con sconto del 40%
-
-
+// Calcolo biglietto over 65
+// const ticketOver = (travelKm * 0.21) * 0.6;
